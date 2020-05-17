@@ -1,0 +1,29 @@
+/*Elementos comunes en la página princial y en la ficha de película*/
+
+/*font-family*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+/*Logo desktop*/
+.logo {
+  text-align: center;
+  margin: auto;
+  width: 2rem;
+  height: 2rem;
+}
+
+/*Logo mobile*/
+
+@media only screen and (max-width: 400px) {
+  .logo {
+    text-align: center;
+    margin-top: 10px;
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+/*Body*/
+body {
+  max-width: 100%;
+  margin: auto;
+}
